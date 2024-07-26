@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <TargetPlatformVersion>10.0.22621.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationManifest>App.manifest</ApplicationManifest>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Add workaround for WinRT support in the old .NET SDK -->
+    <SupportedOSPlatformVersion>$(TargetPlatformMinVersion)</SupportedOSPlatformVersion>
+    <Platforms>AnyCPU;x64</Platforms>
+	  <RootNamespace>LoopbackManager</RootNamespace>
+	  <AssemblyName>LoopbackManager</AssemblyName>
+	  <ImportWindowsDesktopTargets>false</ImportWindowsDesktopTargets>
+	  <ImportFrameworkWinFXTargets>false</ImportFrameworkWinFXTargets>
+	  <MileXamlNoSunValleyXamlStyle>true</MileXamlNoSunValleyXamlStyle>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <Deterministic>true</Deterministic>
+	  <WebView2UseWinRT>False</WebView2UseWinRT>
+	  <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.0" />
+    <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.1.0" />
+    <PackageReference Include="Mile.Xaml" Version="2.2.890" />
+	  <!-- Add Microsoft.UI.Xaml WinRT Reference-->
+	  <Reference Include="Microsoft.UI.Xaml" HintPath="$(PkgMicrosoft_UI_Xaml)\lib\uap10.0\Microsoft.UI.Xaml.winmd" IsWinMDFile="true" />
+	  <Reference Include="WindowsBase" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Strings\LoopbackManagerRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LoopbackManagerRes.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Update="Strings\LoopbackManager.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoopbackManager.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Strings\LoopbackManagerRes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoopbackManagerRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="LoopbackManagerPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\AppBarButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\HyperlinkButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\InfoBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\ListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Styles\MenuFlyout.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

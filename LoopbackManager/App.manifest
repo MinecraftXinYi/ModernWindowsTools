@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1"
+		  xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+
+	<!-- WinRT Registration Free Component for WinUI2 -->
+	<asmv3:file name="Microsoft.UI.Xaml.dll" xmlns="urn:schemas-microsoft-com:winrt.v1">
+		<activatableClass name="Microsoft.UI.Xaml.Media.RadialGradientBrush" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Media.RevealBackgroundBrush" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Media.AcrylicBrush" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Media.RevealBorderBrush" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Media.RevealBrush" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.BreadcrumbBarItemAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.NavigationViewItemAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.SplitButtonAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.PipsPagerAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.RatingControlAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TabViewItemAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.PagerControlAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.DropDownButtonAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.NavigationViewAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ProgressRingAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.NumberBoxAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ProgressBarAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.RadioButtonsAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.AnimatedVisualPlayerAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TeachingTipAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TabViewAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.PersonPictureAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TreeViewItemAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ToggleSplitButtonAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ColorPickerSliderAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ScrollPresenterAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.MenuBarAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.RepeaterAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.ColorSpectrumAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.InfoBarAutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Automation.Peers.WebView2AutomationPeer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.BackdropMaterial" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewItemHeader" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TreeView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.VirtualizingLayoutContext" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.PagerControlTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ElementFactoryGetArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ScrollView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ElementAnimator" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ScrollingZoomOptions" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.MenuBar" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.PipsPager" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TextCommandBarFlyout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBarClosedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TreeViewList" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Layout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RefreshVisualizer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewItemBase" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.BreadcrumbBar" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.StackLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TeachingTip" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SwipeItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TreeViewNode" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.StackLayoutState" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ItemsRepeater" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.IndexPath" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RevealListViewItemPresenter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ScrollingScrollOptions" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.MenuBarItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SymbolIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ImageIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RecyclingElementFactory" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollSnapPoint" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ZoomSnapPointBase" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ComboBoxHelper" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerScrollByRequestedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.MonochromaticOverlayPresenter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarAutomationProperties" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenterTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.RepeatedScrollSnapPoint" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ZoomSnapPoint" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.AutoSuggestBoxHelper" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerAddScrollVelocityRequestedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerScrollToRequestedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.SnapPointBase" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ColumnMajorUniformToLargestGridLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollSnapPointBase" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ColorPickerSlider" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerInteractionRequestedEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.RepeatedZoomSnapPoint" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.InfoBarPanel" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Primitives.TabViewListView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ProgressBar" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ItemsRepeaterScrollHost" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ElementFactory" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RatingItemImageInfo" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ParallaxView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TabViewItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TabView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RatingControl" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.PagerControl" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SplitButton" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ProgressRing" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.FlowLayoutState" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.DropDownButton" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.LayoutContext" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.CommandBarFlyout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.MenuBarItemFlyout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.PathIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.FontIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBar" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NonVirtualizingLayoutContext" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RatingItemFontInfo" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RecyclePool" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.PersonPicture" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedIcon" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBarClosingEventArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.WebView2" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ToggleSplitButton" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.FlowLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.XamlControlsResources" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedAcceptVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronUpDownSmallVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedGlobalNavigationButtonVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedBackVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronDownSmallVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedFindVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronRightDownSmallVisualSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NumberBox" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SwipeControl" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ImageIcon" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.UniformGridLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.InfoBadge" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TreeViewItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.LayoutPanel" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.Expander" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NonVirtualizingLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ItemsSourceView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ColorPicker" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.BreadcrumbBarItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TreeViewItemTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RatingItemInfo" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.VirtualizingLayout" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.UniformGridLayoutState" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.NavigationViewItem" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SelectionModel" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.ElementFactoryRecycleArgs" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.TwoPaneView" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RefreshContainer" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.BitmapIconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.RadioButtons" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.IconSource" threadingModel="both"></activatableClass>
+		<activatableClass name="Microsoft.UI.Xaml.Controls.SwipeItems" threadingModel="both"></activatableClass>
+	</asmv3:file>
+
+	<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <maxversiontested Id="10.0.18362.0"/>
+      <maxversiontested Id="10.0.19041.0"/>
+      <maxversiontested Id="10.0.20348.0"/>
+      <maxversiontested Id="10.0.22000.0"/>
+      <maxversiontested Id="10.0.22621.0"/>
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+  </compatibility>
+
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <autoElevate xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">False</autoElevate>
+      <disableTheming xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">False</disableTheming>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">True/PM</dpiAware>
+      <disableWindowFiltering xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">True</disableWindowFiltering>
+      <printerDriverIsolation xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">True</printerDriverIsolation>
+      <highResolutionScrollingAware xmlns="http://schemas.microsoft.com/SMI/2013/WindowsSettings">True</highResolutionScrollingAware>
+      <ultraHighResolutionScrollingAware xmlns="http://schemas.microsoft.com/SMI/2013/WindowsSettings">True</ultraHighResolutionScrollingAware>
+      <forceFocusBasedMouseWheel xmlns="http://schemas.microsoft.com/SMI/2014/WindowsSettings">False</forceFocusBasedMouseWheel>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2, PerMonitor, System, Unaware</dpiAwareness>
+      <longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">True</longPathAware>
+      <gdiScaling xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">False</gdiScaling>
+      <activeCodePage xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF-8</activeCodePage>
+      <heapType xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">SegmentHeap</heapType>
+    </windowsSettings>
+  </application>
+
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" language="*" />
+    </dependentAssembly>
+  </dependency>
+
+</assembly>
