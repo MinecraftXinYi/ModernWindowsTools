@@ -6,7 +6,7 @@
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
     <Page.Background>
-        <AcrylicBrush />
+        <AcrylicBrush BackgroundSource="HostBackdrop" />
     </Page.Background>
   <Page.Content>
         <Frame x:Name="mainFrame" />

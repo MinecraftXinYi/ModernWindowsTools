@@ -10,8 +10,7 @@
     xmlns:model="using:WindowsTools.Models"
     xmlns:string="using:LoopbackManager.Strings"
     NavigationCacheMode="Enabled"
-    mc:Ignorable="d"
-    Background="Transparent">
+    mc:Ignorable="d">
 
     <Page.Resources>
         <XamlUICommand x:Name="CheckCommand" ExecuteRequested="{x:Bind OnCheckExecuteRequested}" />
