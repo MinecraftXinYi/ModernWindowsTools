@@ -20,7 +20,12 @@
 	  <Deterministic>true</Deterministic>
 	  <WebView2UseWinRT>False</WebView2UseWinRT>
 	  <UseWPF>true</UseWPF>
+	  <ApplicationIcon>LoopbackManager.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="LoopbackManager.ico" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.0" />
