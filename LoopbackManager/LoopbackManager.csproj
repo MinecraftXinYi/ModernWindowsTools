@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Product>Loopback Manager</Product>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net48</TargetFramework>
     <TargetPlatformVersion>10.0.22621.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
-    <AssemblyName>LoopbackManager</AssemblyName>
     <RootNamespace>LoopbackManager</RootNamespace>
     <ApplicationManifest>App.manifest</ApplicationManifest>
     <UseWindowsForms>true</UseWindowsForms>
@@ -19,7 +19,11 @@
     <WebView2UseWinRT>False</WebView2UseWinRT>
     <LangVersion>12.0</LangVersion>
     <UseWPF>true</UseWPF>
+    <ProductVersion>1.0.0.0</ProductVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyTitle>Windows Loopback Manager</AssemblyTitle>
     <ApplicationIcon>LoopbackManager.ico</ApplicationIcon>
+    <Company>MinecraftXinYi Person</Company>
   </PropertyGroup>
 
   <ItemGroup>
