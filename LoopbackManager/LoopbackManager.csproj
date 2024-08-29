@@ -28,7 +28,7 @@
   <ItemGroup>
     <Content Include="LoopbackManager.ico" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.0" />
     <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.1.0" />
@@ -37,7 +37,7 @@
 	  <Reference Include="Microsoft.UI.Xaml" HintPath="$(PkgMicrosoft_UI_Xaml)\lib\uap10.0\Microsoft.UI.Xaml.winmd" IsWinMDFile="true" />
 	  <Reference Include="WindowsBase" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Compile Update="Strings\LoopbackManagerRes.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -45,7 +45,7 @@
       <DependentUpon>LoopbackManagerRes.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  
+
   <ItemGroup>
     <EmbeddedResource Update="Strings\LoopbackManager.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -56,7 +56,7 @@
       <LastGenOutput>LoopbackManagerRes.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  
+
   <ItemGroup>
     <None Update="LoopbackManagerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
